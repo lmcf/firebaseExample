@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".itemReservaFragment">
+
+    <TextView
+    android:id="@+id/fechaTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginStart="39dp"
+    android:layout_marginTop="65dp"
+    android:text="Fecha"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+    android:id="@+id/fechaTexto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="55dp"
+    android:layout_marginEnd="43dp"
+    android:ems="10"
+    android:hint="fecha"
+    android:inputType="textPersonName"
+    android:text="Name"
+    app:layout_constraintBottom_toBottomOf="@+id/fechaTextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+    android:id="@+id/comensalesTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="48dp"
+    android:text="Comensales"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/fechaTextView" />
+
+    <TextView
+    android:id="@+id/comensalesTexto"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_marginTop="29dp"
+    android:layout_marginEnd="32dp"
+    android:ems="10"
+    android:hint="num personas"
+    android:inputType="textPersonName|text"
+    android:text="Name"
+    app:layout_constraintBottom_toBottomOf="@+id/comensalesTextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/fechaEditText"
+    app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+    android:id="@+id/nombreTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginStart="28dp"
+    android:layout_marginTop="44dp"
+    android:text="Nombre"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/comensalesTextView" />
+
+    <TextView
+    android:id="@+id/nombreTexto"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_marginTop="26dp"
+    android:layout_marginEnd="43dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="Name"
+    app:layout_constraintBottom_toBottomOf="@+id/nombreTextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/comensalesEditText" />
+
+    <TextView
+    android:id="@+id/telefonoTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginStart="39dp"
+    android:layout_marginTop="42dp"
+    android:layout_marginBottom="403dp"
+    android:text="Telefono"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/nombreTextView" />
+
+    <TextView
+    android:id="@+id/telefonoTexto"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_marginTop="29dp"
+    android:layout_marginEnd="43dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="Name"
+    app:layout_constraintBottom_toBottomOf="@+id/telefonoTextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/nombreEditText" />
+
+    <TextView
+    android:id="@+id/comentariosTextView"
+    android:layout_width="92dp"
+    android:layout_height="35dp"
+    android:layout_marginStart="36dp"
+    android:layout_marginBottom="312dp"
+    android:text="Telefono"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/comentariosTexto"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
